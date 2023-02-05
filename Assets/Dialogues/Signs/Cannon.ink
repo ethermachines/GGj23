@@ -1,0 +1,1 @@
+8-pounder field cannon “Cithoro” from the Kingdom of Sardinia at the Museum of Military History in Vienna. The cannon from 1759 has a length of 152 cm, a caliber of 9.5 cm and was cast by A. Bianco in Turin.
