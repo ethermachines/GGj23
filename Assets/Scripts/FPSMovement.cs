@@ -55,23 +55,15 @@ public class FPSMovement : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
 
         if (DialogueManager.GetInstance().dialogueIsPlaying)
         {
             return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            Debug.Break();
-        }
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            disabled = !disabled;
         }
 
         if (disabled)
